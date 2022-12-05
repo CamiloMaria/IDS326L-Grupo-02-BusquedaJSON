@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Antlr4.Runtime;
-using ConsoleApp2;
+using BusquedaJson;
 using System;
 using System.Text.Json;
 
@@ -66,7 +66,7 @@ static void BucarArbol(string expresion)
     var commonTokenStream = new CommonTokenStream(busquedaJsonLexer);
     var busquedaJsonParser = new busquedaJsonParser(commonTokenStream);
     var busquedaJsonContext = busquedaJsonParser.program();
-    var visitor = new busquedaJson();
+    var visitor = new BusquedaJson.BusquedaJson();
     visitor.Visit(busquedaJsonContext);
 
 }

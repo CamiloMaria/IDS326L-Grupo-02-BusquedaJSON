@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2
+namespace BusquedaJson
 {
     public class Programa
     {
@@ -13,7 +13,7 @@ namespace ConsoleApp2
         public string? numero;
         public string? punto;
     }
-    internal class busquedaJson : busquedaJsonBaseVisitor<Programa>
+    internal class BusquedaJson : busquedaJsonBaseVisitor<Programa>
     {
         public override Programa VisitArray([NotNull] busquedaJsonParser.ArrayContext context)
         {
