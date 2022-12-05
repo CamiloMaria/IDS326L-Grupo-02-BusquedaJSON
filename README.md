@@ -1,4 +1,4 @@
-H1> IDS326L - Grupo 02
+<H1> IDS326L - Grupo 02
 
 <h3> Integrantes
 <p></p>
