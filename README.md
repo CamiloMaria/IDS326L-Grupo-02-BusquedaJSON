@@ -3,7 +3,7 @@
 <h3> Integrantes
 <p></p>
 
-- Christian Aquino - 1099784
-- Camilo Jose Maria Castillo - 1100433
-- Desireé Larissa Maríñez Jiménez - 1101374
-- Carlos Eduardo Rosario Rosario - 1100517
+- Christian Aquino - 1099784 (Front y Back-end)
+- Camilo Jose Maria Castillo - 1100433 (Front y Back-end)
+- Desireé Larissa Maríñez Jiménez - 1101374 (Front-end)
+- Carlos Eduardo Rosario Rosario - 1100517 (Gramática)
